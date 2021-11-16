@@ -1,0 +1,102 @@
+*{
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #2CB3F3;
+    position: relative;
+    
+    }
+.texto-superior{
+    position: relative;
+    margin-top: 8vw;
+    height: 25vh;
+    width: 90vw;
+}
+h1 {
+    position: absolute;
+    left: 47%;
+    font-size: 3.5rem;
+    width: 50vw;
+
+}
+p {
+    position: absolute;
+    left: 38%;
+    font-weight: 400;
+    font-size: 1.9rem;
+    width: 50Vw;
+    padding-top: 8%;
+}
+.quadro-branco{
+    position: relative;
+    width: 46vw;
+    height: 65.75vh;
+    background-color: #FFFFFF;
+    margin-top: 2.6vh;
+    margin-left: 50vh;
+    border-radius: 15% 15% 0% 0%;
+}
+.rosto{
+    position: relative;
+    width: 36vw;
+    height: 51vh;
+    background-color: #FFE1C9;
+    border-radius: 100%;
+    top: 7vh;
+    left: 5vw;
+}
+.olho1 {
+    position: absolute;
+    width: 3vw;
+    height: 6vh;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 10vh;
+    left: 9vw;
+}
+.olho2 {
+    position: absolute;
+    width: 3vw;
+    height: 6vh;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 10vh;
+    right: 9vw;
+}
+.boca form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 27.11vh;
+    left: 8.3vw;
+}
+.boca input{
+    width: 19.48vw;
+    font-size: 1.5rem;
+    padding: 2vh 0.77vw;
+    border: 0.2rem solid black;
+}
+.entrar {
+    position: relative;
+    width: 90vw;
+    top: 2.56vh;
+    left: 44.5%;
+    bottom: 7.37vh;
+    margin-bottom: 7.37vh;
+}
+button{
+    position: absolute;
+    left: 51%;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #55A603;
+    color: #B2F272;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
+        
